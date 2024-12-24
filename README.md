@@ -1,4 +1,4 @@
-# HackRU 2025 Data Research
+# HackRU 2024 Data Research
 
 **HackRU** is Rutgers University's premier hackathon, held twice annually. As part of the HackRU data research team, this repository is dedicated to exploring past event data and leveraging it to improve decisions and guide future hackathon planning.
 
@@ -23,6 +23,18 @@ HackRU is Rutgers University's **biannual hackathon**, bringing together student
 
 ---
 
+## How to Use This Repository
+
+This repository will evolve over the course of 2024. It contains:
+
+- **Data**: Processed datasets from past hackathons.
+- **Scripts**: Python notebooks and scripts for analysis and visualization.
+- **Models**: Machine learning models for predictive analysis.
+
+Stay tuned for updates!
+
+---
+
 ## Dependencies
 
 To set up the required dependencies for this project, run the following command:
@@ -35,3 +47,28 @@ or
 ```bash
 pip install -r requirements.txt
 ```
+
+---
+
+## Steps to Get Data
+
+Follow these steps to retrieve data from MongoDB and store it locally:
+
+1. **Set Up the MongoDB Key**:
+   - Add your MongoDB URI (key) as an environment variable. This can be done by creating a `.env` file in the root directory of the project with the following content:
+     ```env
+     MONGO_URI=your-mongodb-uri
+     ```
+
+2. **Run the Scripts**:
+   - Navigate to the `data_scripts` directory and run the relevant scripts to fetch data from MongoDB. For example:
+     ```bash
+     python download_data.py
+     ```
+
+3. **Check the Output**:
+   - Retrieved data will be saved in the `data` folder. Check this folder for JSON or CSV files containing the exported data.
+
+---
+
+
