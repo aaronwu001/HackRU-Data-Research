@@ -1,4 +1,4 @@
-# HackRU 2024 Data Research
+# HackRU 2025 Data Research
 
 **HackRU** is Rutgers University's premier hackathon, held twice annually. As part of the HackRU data research team, this repository is dedicated to exploring past event data and leveraging it to improve decisions and guide future hackathon planning.
 
