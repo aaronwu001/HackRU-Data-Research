@@ -30,3 +30,8 @@ To set up the required dependencies for this project, run the following command:
 ```bash
 pip install python-dotenv pandas pymongo
 ```
+or 
+
+```bash
+pip install -r requirements.txt
+```
