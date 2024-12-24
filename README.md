@@ -63,7 +63,7 @@ Follow these steps to retrieve data from MongoDB and store it locally:
 2. **Run the Scripts**:
    - Navigate to the `data_scripts` directory and run the relevant scripts to fetch data from MongoDB. For example:
      ```bash
-     python download_data.py
+     python ./data_scripts/mongo_to_csv.py
      ```
 
 3. **Check the Output**:
